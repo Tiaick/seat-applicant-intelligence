@@ -4,8 +4,7 @@
   "type": "seat-plugin",
   "license": "MIT",
   "require": {
-    "php": "^8.2",
-    "seat/services": "^5.0"
+    "php": "^8.2"
   },
   "autoload": {
     "psr-4": {
