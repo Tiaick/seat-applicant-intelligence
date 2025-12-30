@@ -1,0 +1,24 @@
+{
+  "name": "evetools/seat-applicant-intelligence",
+  "description": "SeAT plugin for applicant intelligence and spy risk assessment",
+  "type": "seat-plugin",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "seat/services": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EveTools\\ApplicantIntelligence\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EveTools\\ApplicantIntelligence\\ApplicantIntelligenceServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
